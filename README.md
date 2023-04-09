@@ -28,9 +28,13 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 ## Procedure
 
 1.Use module projname(input,output) to start the Verilog programmming.
+
 2.Assign inputs and outputs using the word input and output respectively.
+
 3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
+
 4.Use each output to represnt onre for differnce and the other for borrow.
+
 5.End the verilog program using keyword endmodule.
 
 ## Program:
@@ -65,19 +69,29 @@ endmodule
 ## Output:
 ## HALF SUBTRACTOR
 ## Logic symbol
+![ss1](https://user-images.githubusercontent.com/93427254/230761656-c7a1c159-b563-403b-99a1-681b8b1623f1.png)
 
 ## Truthtable
-
-
+![ss2](https://user-images.githubusercontent.com/93427254/230761682-9a119559-022e-4d2c-85d6-88b3ed23f325.png)
 
 ##  RTL realization
-
+![ss3](https://user-images.githubusercontent.com/93427254/230761691-7854452a-1d24-431c-9004-f77d8aa243d4.png)
 
 ## Timing diagram 
+![ss4](https://user-images.githubusercontent.com/93427254/230761702-4a29d687-266e-420c-8912-4d37b574f387.png)
+
 ## FULL SUBTRACTOR
 ## Logic symbol
+![ss5](https://user-images.githubusercontent.com/93427254/230761714-b7d9009a-1c00-41ae-8bd1-52379fd3da57.png)
+
 ## Truthtable
+![ss6](https://user-images.githubusercontent.com/93427254/230761722-a0d9f125-1734-4231-bf87-ad16931af680.png)
+
 ## RTL realization
+![ss7](https://user-images.githubusercontent.com/93427254/230761727-5eaed911-00af-4084-8d50-a9f1ffd4271d.png)
+
 ## Timing diagram
+![ss8](https://user-images.githubusercontent.com/93427254/230761739-2156bd79-f770-4cba-a90d-ce4c31dbb6fe.png)
+
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
